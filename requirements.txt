@@ -2,7 +2,7 @@ streamlit==1.46.0
 
 # NLP stack – wheels available for cp313
 transformers==4.41.1          # requires tokenizers <0.20
-tokenizers==0.19.2            # cp313 wheel exists (PyO3 0.21)
+tokenizers            # cp313 wheel exists (PyO3 0.21)
 torch==2.7.1                  # CPU wheel cp313
 
 # Local LLaMA
