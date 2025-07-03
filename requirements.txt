@@ -1,0 +1,20 @@
+streamlit==1.46.0
+
+# NLP stack – wheels available for cp313
+transformers==4.41.1          # requires tokenizers <0.20
+tokenizers==0.19.2            # cp313 wheel exists (PyO3 0.21)
+torch==2.7.1                  # CPU wheel cp313
+
+# Local LLaMA
+llama-cpp-python==0.2.35      # builds fine; small C++ compile
+
+# Vision & audio
+fer==22.5.1
+opencv-python-headless==4.11.0.86
+
+soundfile==0.13.1             # for WAV read
+python_speech_features==0.6   # pure‑Python MFCC extractor
+
+# Utils
+numpy==2.3.1                  # cp313 wheel
+scikit-learn==1.7.0           # cp313 wheel
